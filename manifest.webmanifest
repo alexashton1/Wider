@@ -1,0 +1,15 @@
+{
+  "name": "Wider — the daily country that zooms out",
+  "short_name": "Wider",
+  "description": "One mystery country a day. Every miss zooms out.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3EEE4",
+  "theme_color": "#14212D",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
