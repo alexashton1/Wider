@@ -396,13 +396,13 @@ dialog[open] .sheet{animation:rise .35s cubic-bezier(.2,.9,.3,1)}
 (() => {
 'use strict';
 /* ========= Constants ========= */
-const EPOCH = Date.UTC(2026, 10, 19);        // puzzle No. 1 = your launch day (UTC). Months count from 0: 10 = November
+const EPOCH = Date.UTC(2026, 10, 18);        // puzzle No. 1 = your launch day (UTC). Months count from 0: 10 = November
 const MAX = 6;
 const SITE_URL = '';                        // set to the public URL when deployed; falls back to current page
 const STORE = 'wider:v1';
 // Global results backend. In the Claude artifact it uses the artifact's shared database;
 // on your own site, fill these in to use Supabase's free tier (see README / supabase.sql).
-const SUPABASE = {url: '', anonKey: ''};
+const SUPABASE = {url: 'https://lbyopdjqagwqrwulztov.supabase.co', anonKey: 'sb_publishable_j5TK1cW1BLwyacEJgKt3rg_LEkZbacK'};
 const TIERS = {1: ['Gentle', 'd1'], 2: ['Steady', 'd2'], 3: ['Tough', 'd3']};
 const WEEK_TIERS = [2, 1, 1, 2, 2, 2, 3];     // Sun..Sat — gentle start to the week, tough Saturdays
 
